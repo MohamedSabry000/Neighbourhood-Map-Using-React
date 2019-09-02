@@ -10,8 +10,8 @@ class App extends Component {
                 {
                     'name': "Intelligentsia Coffee",
                     'type': "coffee shop",
-                    'latitude': 40.745976,
-                    'longitude': -74.005046,
+                    'latitude': 31.167110,
+                    'longitude': -85.910340,
                     'foursquareId': '519a94e3498e722d3d9ae1bf'
                 },
                 {
@@ -62,7 +62,7 @@ class App extends Component {
 
     componentDidMount() {
         window.initMap = this.initMap;
-        loadMapJS('https://maps.googleapis.com/maps/api/js?key=AIzaSyCPi0o_tjNjKYYDe_6nYg82r0leI7kKlOE&callback=initMap')
+        loadMapJS('https://maps.googleapis.com/maps/api/js?key=AIzaSyDhS50Q2-XHC8vn-w7iFwYvMfgTl5GUXzI&callback=initMap')
     }
 
     initMap() {
